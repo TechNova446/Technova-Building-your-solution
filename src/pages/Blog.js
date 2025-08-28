@@ -20,37 +20,37 @@ const Blog = () => {
     {
       imageUrl: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=1200&auto=format&fit=crop',
       category: 'Develop',
-      date: 'Dec 30, 2020',
+      date: 'Jan 15, 2025',
       title: 'British Designer Create Arras'
     },
     {
       imageUrl: 'https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1200&auto=format&fit=crop',
       category: 'Marketing',
-      date: 'Dec 30, 2020',
+      date: 'Jan 12, 2025',
       title: 'Search Engine Marketing Share'
     },
     {
       imageUrl: 'https://images.unsplash.com/photo-1551836022-4c4c79ecde51?q=80&w=1200&auto=format&fit=crop',
       category: 'Design',
-      date: 'Dec 30, 2020',
+      date: 'Jan 10, 2025',
       title: 'Develop Your Startup Idea'
     },
     {
       imageUrl: 'https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?q=80&w=1200&auto=format&fit=crop',
       category: 'Design',
-      date: 'Jan 4, 2021',
+      date: 'Jan 8, 2025',
       title: 'Planning To Create A Website'
     },
     {
       imageUrl: 'https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1200&auto=format&fit=crop',
       category: 'Marketing',
-      date: 'Jan 4, 2021',
+      date: 'Jan 5, 2025',
       title: 'Grow Your Business & Start'
     },
     {
       imageUrl: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop',
       category: 'Marketing',
-      date: 'Jan 4, 2021',
+      date: 'Jan 3, 2025',
       title: 'Building The Google Web UI'
     }
   ];
@@ -76,7 +76,7 @@ const Blog = () => {
       {/* News & Articles */}
       <section className="px-6 pb-24">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-          <div>
+          <div>wsazWSZ@
             <div className="text-white/80 mb-2">News & Articles</div>
             <h3 className="text-white text-4xl md:text-5xl font-extrabold tracking-tight mb-4">
               Get updated with the latest insights

@@ -45,25 +45,25 @@ const TestimonialsSection = () => {
     () => [
       {
         name: 'Kevin Lynch',
-        role: 'Entrepreneur',
+        role: 'CEO, TechFlow Solutions',
         quote:
-          'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth.',
+          'Technova transformed our business with their innovative technology solutions. Their team delivered a robust web application that streamlined our operations and increased efficiency by 40%.',
         imageUrl:
           'https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=1600&auto=format&fit=crop'
       },
       {
         name: 'Sarah Ahmed',
-        role: 'Product Designer',
+        role: 'CTO, Digital Innovations',
         quote:
-          'No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences.',
+          'Working with Technova was exceptional. They understood our technical requirements perfectly and delivered a scalable mobile application that exceeded our expectations.',
         imageUrl:
           'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1600&auto=format&fit=crop'
       },
       {
         name: 'Jon Park',
-        role: 'CTO, Horizon',
+        role: 'CTO, Horizon Technologies',
         quote:
-          'We trusted their team to deliver and they exceeded expectations. The collaboration was smooth and outcomes measurable.',
+          'We trusted Technova to deliver enterprise-grade solutions and they exceeded expectations. The collaboration was smooth, the technology was cutting-edge, and the results were measurable.',
         imageUrl:
           'https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=1600&auto=format&fit=crop'
       }

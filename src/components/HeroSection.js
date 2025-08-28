@@ -11,46 +11,46 @@ const HeroSection = () => {
         alt: "Business professional with laptop"
       },
       content: {
-        subheading: "Technova – Innovating Digital Solutions",
+        subheading: "Technova – Digital Innovation & Technology Solutions",
         title: "We Build",
         highlight: "Modern Digital Solutions",
-        description: "At Technova, we transform ideas into powerful digital solutions. We specialize in designing and developing modern, user-friendly, and scalable systems that help businesses thrive in the digital era."
+        description: "At Technova, we transform business ideas into powerful digital solutions. We specialize in designing and developing modern, user-friendly, and scalable web applications that drive business growth and digital transformation."
       }
     },
     {
       image: {
-        src: "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        src: "https://res.cloudinary.com/dijnmj1ea/image/upload/v1756405437/search-find-view-information-data-graphic-symbol-icon_vtlasr.webp",
         alt: "Tech team collaboration"
       },
       content: {
-        subheading: "Technova – Innovating Digital Solutions",
-        title: "We Build",
-        highlight: "Modern Digital Solutions",
-        description: "At Technova, we transform ideas into powerful digital solutions. We specialize in designing and developing modern, user-friendly, and scalable systems that help businesses thrive in the digital era."
+        subheading: "Technova – Technology & Digital Solutions",
+        title: "We Develop",
+        highlight: "Custom Software Solutions",
+        description: "Our expert development team specializes in building custom software solutions, web applications, and digital platforms. We help businesses leverage technology to streamline operations and achieve digital excellence."
       }
     },
     {
       image: {
-        src: "https://res.cloudinary.com/dijnmj1ea/image/upload/v1756388715/TECHNOVA_3_yft3kr.png",
+        src: "https://res.cloudinary.com/dijnmj1ea/image/upload/v1756404924/WOMAN_xirsex.webp",
         alt: "Modern office workspace"
       },
       content: {
-        subheading: "Technova – Innovating Digital Solutions",
-        title: "We Build",
-        highlight: "Modern Digital Solutions",
-        description: "At Technova, we transform ideas into powerful digital solutions. We specialize in designing and developing modern, user-friendly, and scalable systems that help businesses thrive in the digital era."
+        subheading: "Technova – Digital Transformation & Innovation",
+        title: "We Transform",
+        highlight: "Business Through Technology",
+        description: "We craft stunning, intuitive user interfaces and develop comprehensive digital solutions. From web applications to mobile platforms, we ensure your business embraces digital transformation and stays ahead of the competition."
       }
     },
     {
       image: {
-        src: "https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        src: "https://res.cloudinary.com/dijnmj1ea/image/upload/v1756405135/seo_n8xftr.webp",
         alt: "Digital innovation"
       },
       content: {
-        subheading: "Technova – Innovating Digital Solutions",
-        title: "We Build",
-        highlight: "Modern Digital Solutions",
-        description: "At Technova, we transform ideas into powerful digital solutions. We specialize in designing and developing modern, user-friendly, and scalable systems that help businesses thrive in the digital era."
+        subheading: "Technova – Full-Service Technology Company",
+        title: "We Deliver",
+        highlight: "Complete Technology Solutions",
+        description: "From responsive web applications to native mobile apps and custom software systems, we build cutting-edge technology solutions that drive innovation. Keep your business connected, efficient, and future-ready."
       }
     }
   ];
@@ -157,7 +157,8 @@ const HeroSection = () => {
                     key={index}
                     src={slide.image.src}
                     alt={slide.image.alt}
-                    className={`absolute inset-0 w-full h-full object-cover transition-all duration-800 ${
+                    onClick={() => setCurrentSlide(index)}
+                    className={`absolute inset-0 w-full h-full object-cover transition-all duration-800 cursor-pointer hover:scale-105 ${
                       index === currentSlide 
                         ? 'translate-x-0 opacity-100' 
                         : index === (currentSlide + 1) % slides.length 

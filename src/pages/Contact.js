@@ -58,7 +58,9 @@ const Contact = () => {
               <svg viewBox="0 0 24 24" fill="currentColor" className="text-purple-400 w-10 h-10"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V21a1 1 0 01-1 1C10.07 22 2 13.93 2 3a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.2 2.2z"/></svg>
             </div>
             <h3 className="text-white text-xl font-semibold mb-2">Phone</h3>
-            <p className="text-gray-400">0793 515 066</p>
+            <a href="tel:0712665257" className="text-gray-400 hover:text-green-400 transition-colors cursor-pointer">
+              0712 665 257
+            </a>
           </div>
 
           <div className="rounded-3xl border border-[#1b2630] bg-[#0f1316] p-10 text-center">
@@ -66,7 +68,9 @@ const Contact = () => {
               <svg viewBox="0 0 24 24" fill="currentColor" className="text-red-500 w-10 h-10"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm-1.4 4.25l-6.2 4.65a1 1 0 01-1.2 0L5 8.25V6.5l7 5.25 7-5.25v1.75z"/></svg>
             </div>
             <h3 className="text-white text-xl font-semibold mb-2">Email</h3>
-            <p className="text-gray-400">Technova446@gmail.com</p>
+            <a href="mailto:Technova446@gmail.com" className="text-gray-400 hover:text-green-400 transition-colors cursor-pointer">
+              Technova446@gmail.com
+            </a>
           </div>
         </div>
       </section>
